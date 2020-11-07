@@ -13,6 +13,6 @@ namespace Derscanu_Smaranda_Lab5.Models
         {
         }
         public DbSet<Expense> Expense { get; set; }
-        public object ExpenseDTO { get; internal set; }
+        public DbSet<ExpenseDTO> ExpenseDTO { get; set; }
     }
 }
